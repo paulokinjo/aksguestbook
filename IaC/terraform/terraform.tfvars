@@ -1,0 +1,5 @@
+app_name            = "guestbook"
+resource_group_name = "guestbook"
+region              = "japaneast"
+aks_name            = "aksguestbook"
+admin_username      = "guestroot"
