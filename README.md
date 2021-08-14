@@ -22,3 +22,14 @@ az ad sp create-for-rbac --name="<ServicePrincipal name>" --role="Contributor" -
 ```
 
 # <a href="IaC/terraform">IaC - Terraform</a>
+
+# Helm
+```bash
+$ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
+$ chmod 700 get_helm.sh
+$ ./get_helm.sh
+```
+
+> helm repo add bitnami https://charts.bitnami.com/bitnami
+
+> helm install handsonakswp bitnami/wordpress 
