@@ -5,8 +5,8 @@ metadata:
   labels:
     app: guestbook
     tier: frontend
-spec: 
-  type: LoadBalancer
+spec:   
+  type: ClusterIP
   ports:
     - port: 80
   selector:
